@@ -1,0 +1,27 @@
+2019/01/22 19:33:34 PM - DEBUG - __init__.py[:415] - CACHEDIR=C:\Users\64951\.matplotlib
+2019/01/22 19:33:35 PM - DEBUG - font_manager.py[:1362] - Using fontManager instance from C:\Users\64951\.matplotlib\fontlist-v300.json
+2019/01/22 19:33:35 PM - DEBUG - pyplot.py[:211] - Loaded backend module://backend_interagg version unknown.
+2019/01/22 19:34:03 PM - DEBUG - __init__.py[:415] - CACHEDIR=C:\Users\64951\.matplotlib
+2019/01/22 19:34:03 PM - DEBUG - font_manager.py[:1362] - Using fontManager instance from C:\Users\64951\.matplotlib\fontlist-v300.json
+2019/01/22 19:34:03 PM - DEBUG - pyplot.py[:211] - Loaded backend module://backend_interagg version unknown.
+2019/01/22 19:34:04 PM - ERROR - tools.py[:197] - code:1203,name:SqlValueError,message:parse_type字段内容不在合法范围内,data:({'item': 'max_site_value_by_var', 'key': 314},)
+Traceback (most recent call last):
+  File "C:\Users\64951\Desktop\分析\analyze\config\tools.py", line 192, in sql_data_to_dict
+    value_data_values = data_type_conversion(value_data_sql[value_data_sql[item] == key])
+  File "C:\Users\64951\Desktop\分析\analyze\config\tools.py", line 54, in data_type_conversion
+    raise SqlValueError('parse_type字段内容不在合法范围内')
+error_demo.error_code.SqlValueError: parse_type字段内容不在合法范围内
+2019/01/22 19:34:04 PM - ERROR - tools.py[:208] - code:1203,name:SqlValueError,message:parse_type字段内容不在合法范围内,data:({'key': 'demo'},)
+Traceback (most recent call last):
+  File "C:\Users\64951\Desktop\分析\analyze\config\tools.py", line 203, in sql_data_to_dict
+    value_data = data_type_conversion(sql_data[sql_data['config_item'] == sql_data_key])
+  File "C:\Users\64951\Desktop\分析\analyze\config\tools.py", line 54, in data_type_conversion
+    raise SqlValueError('parse_type字段内容不在合法范围内')
+error_demo.error_code.SqlValueError: parse_type字段内容不在合法范围内
+2019/01/22 19:34:04 PM - ERROR - tools.py[:208] - code:1203,name:SqlValueError,message:parse_type字段内容不在合法范围内,data:({'key': 'active_city_id'},)
+Traceback (most recent call last):
+  File "C:\Users\64951\Desktop\分析\analyze\config\tools.py", line 203, in sql_data_to_dict
+    value_data = data_type_conversion(sql_data[sql_data['config_item'] == sql_data_key])
+  File "C:\Users\64951\Desktop\分析\analyze\config\tools.py", line 54, in data_type_conversion
+    raise SqlValueError('parse_type字段内容不在合法范围内')
+error_demo.error_code.SqlValueError: parse_type字段内容不在合法范围内
